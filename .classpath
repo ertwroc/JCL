@@ -5,5 +5,14 @@
 	<classpathentry kind="src" path="test_model"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+	<classpathentry kind="lib" path="lib/org.eclipse.ocl_1.3.0.v200905271400.jar"/>
+	<classpathentry kind="lib" path="lib/org.eclipse.ocl.ecore_1.3.0.v200905271400.jar"/>
+	<classpathentry kind="lib" path="lib/org.eclipse.ocl.uml_2.0.0.v200905271400.jar"/>
+	<classpathentry kind="lib" path="lib/org.eclipse.emf.ecore_2.5.0.v200906151043.jar"/>
+	<classpathentry kind="lib" path="lib/org.eclipse.emf.common_2.5.0.v200906151043.jar"/>
+	<classpathentry kind="lib" path="lib/org.eclipse.uml2_3.0.0.v200905041045.jar"/>
+	<classpathentry kind="lib" path="lib/org.eclipse.uml2.uml_3.0.0.v200905151700.jar"/>
+	<classpathentry kind="lib" path="lib/net.sourceforge.lpg.lpgjavaruntime_1.1.0.v200803061910.jar"/>
+	<classpathentry kind="lib" path="lib/javassist.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

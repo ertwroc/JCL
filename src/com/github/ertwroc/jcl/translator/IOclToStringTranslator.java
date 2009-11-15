@@ -1,0 +1,58 @@
+package com.github.ertwroc.jcl.translator;
+
+import org.eclipse.ocl.cst.*;
+
+public interface IOclToStringTranslator extends IOclToString {
+//	public String generateCSTNode();
+	public String translateBooleanLiteralExpCS(BooleanLiteralExpCS booleanLiteralExpCS);
+	public String translateCallExpCS(CallExpCS callExpCS);
+	public String translateClassifierContextDeclCS(ClassifierContextDeclCS classifierContextDeclCS);
+	public String translateCollectionLiteralExpCS(CollectionLiteralExpCS collectionLiteralExpCS);
+	public String translateCollectionLiteralPartCS(CollectionLiteralPartCS collectionLiteralPartCS);
+	public String translateCollectionRangeCS(CollectionRangeCS collectionRangeCS);
+	public String translateCollectionTypeCS(CollectionTypeCS collectionTypeCS);
+	public String translateContextDeclCS(ContextDeclCS contextDeclCS);
+	public String translateCSTNode(CSTNode cSTNode);
+	public String translateDefCS(DefCS defCS);
+	public String translateDefExpressionCS(DefExpressionCS defExpressionCS);
+	public String translateDerValueCS(DerValueCS derValueCS);
+	public String translateEnumLiteralExpCS(EnumLiteralExpCS enumLiteralExpCS);
+	public String translateFeatureCallExpCS(FeatureCallExpCS featureCallExpCS);
+	public String translateIfExpCS(IfExpCS ifExpCS);
+	public String translateInitOrDerValueCS(InitOrDerValueCS initOrDerValueCS);
+	public String translateInitValueCS(InitValueCS initValueCS);
+	public String translateIntegerLiteralExpCS(IntegerLiteralExpCS integerLiteralExpCS);
+	public String translateInvalidLiteralExpCS(InvalidLiteralExpCS invalidLiteralExpCS);
+	public String translateInvCS(InvCS invCS);
+	public String translateInvOrDefCS(InvOrDefCS invOrDefCS);
+	public String translateIsMarkedPreCS(IsMarkedPreCS isMarkedPreCS);
+	public String translateIterateExpCS(IterateExpCS iterateExpCS);
+	public String translateIteratorExpCS(IteratorExpCS iteratorExpCS);
+	public String translateLetExpCS(LetExpCS letExpCS);
+	public String translateLiteralExpCS(LiteralExpCS literalExpCS);
+	public String translateLoopExpCS(LoopExpCS loopExpCS);
+	public String translateMessageExpCS(MessageExpCS messageExpCS);
+	public String translateNullLiteralExpCS(NullLiteralExpCS nullLiteralExpCS);
+	public String translateOCLDocumentCS(OCLDocumentCS oCLDocumentCS);
+	public String translateOCLExpressionCS(OCLExpressionCS oCLExpressionCS);
+	public String translateOCLMessageArgCS(OCLMessageArgCS oCLMessageArgCS);
+	public String translateOperationCallExpCS(OperationCallExpCS operationCallExpCS);
+	public String translateOperationContextDeclCS(OperationContextDeclCS operationContextDeclCS);
+	public String translateOperationCS(OperationCS operationCS);
+	public String translatePackageDeclarationCS(PackageDeclarationCS packageDeclarationCS);
+	public String translatePathNameCS(PathNameCS pathNameCS);
+	public String translatePrePostOrBodyDeclCS(PrePostOrBodyDeclCS prePostOrBodyDeclCS);
+	public String translatePrimitiveLiteralExpCS(PrimitiveLiteralExpCS primitiveLiteralExpCS);
+	public String translatePrimitiveTypeCS(PrimitiveTypeCS primitiveTypeCS);
+	public String translatePropertyContextCS(PropertyContextCS propertyContextCS);
+	public String translateRealLiteralExpCS(RealLiteralExpCS realLiteralExpCS);
+	public String translateSimpleNameCS(SimpleNameCS simpleNameCS);
+	public String translateStateExpCS(StateExpCS stateExpCS);
+	public String translateStringLiteralExpCS(StringLiteralExpCS stringLiteralExpCS);
+	public String translateTupleLiteralExpCS(TupleLiteralExpCS tupleLiteralExpCS);
+	public String translateTupleTypeCS(TupleTypeCS tupleTypeCS);
+	public String translateTypeCS(TypeCS typeCS);
+	public String translateUnlimitedNaturalLiteralExpCS(UnlimitedNaturalLiteralExpCS unlimitedNaturalLiteralExpCS);
+	public String translateVariableCS(VariableCS variableCS);
+	public String translateVariableExpCS(VariableExpCS variableExpCS);
+}
